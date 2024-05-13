@@ -13,7 +13,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/lukemakhanu/learning/internal/services/pollData"
+	"github.com/anamliz/learning/internal/services/pollData"
 	"github.com/spf13/viper"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
