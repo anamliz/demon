@@ -1,0 +1,17 @@
+
+{
+    "mySQL": {
+        "live": "root:''@tcp(127.0.0.1)/ultisoftech?charset=utf8"
+    },
+    "log_setting":{
+        "MaxSize":"100000",
+        "MaxBackups": "2",
+        "MaxAge":"1",
+        "Compress":"true"
+    },
+    "poll_data":{
+        "logs":"/var/log/learning/poll_data/info.log",
+        "url":"http://127.0.0.1/phalc/accommodation",
+        "timeouts":"7"
+    }
+}
