@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lukemakhanu/learning/internal/domains/pollData"
+	"github.com/anamliz/learning/internal/domains/pollData"
 )
 
 var _ pollData.PollDataRepository = (*MysqlRepository)(nil)
