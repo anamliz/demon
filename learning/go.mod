@@ -1,6 +1,6 @@
-module github.com/lukemakhanu/learning
-
-go 1.20
+module github.com/anamliz/learning
+go 1.22.2
+//go 1.20
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0
