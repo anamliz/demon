@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/lukemakhanu/learning/internal/domains/client/polldata"
-	"github.com/lukemakhanu/learning/internal/domains/pollData"
-	pollDataMysql "github.com/lukemakhanu/learning/internal/domains/pollData/pollDataMyql"
+	"github.com/anamliz/learning/internal/domains/client/polldata"
+	"github.com/anamliz/learning/internal/domains/pollData"
+	pollDataMysql "github.com/anamliz/learning/internal/domains/pollData/pollDataMyql"
 )
 
 // PollDataServicesConfiguration is an alias for a function that will take in a pointer to an PollDataService and modify it
