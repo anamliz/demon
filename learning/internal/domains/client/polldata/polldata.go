@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/lukemakhanu/learning/internal/domains/pollData"
+	"github.com/anamliz/learning/internal/domains/pollData"
 )
 
 // Compile time interface assertion.
